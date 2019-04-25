@@ -5,13 +5,13 @@ spring:
 -----        
         
 spring:	
- profiles: 
-  application: 
+ profiles: dev
+ application: 
    name: microservicecloud-config-atguigu-dev
 
 -----
       
 spring: 
  profiles: test #测试坏境 
-  application: 
+ application: 
    name: microservicecloud-config-atguigu-test
